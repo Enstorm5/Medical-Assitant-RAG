@@ -15,6 +15,7 @@ The **Medical Assistant RAG** (Retrieval-Augmented Generation) API is a medical 
 1. **Data Preprocessing**:
    - Medical data is loaded from a JSON file (`med.json`) and converted into vector embeddings using **SentenceTransformer**.
    - These embeddings are indexed using **FAISS** for efficient similarity search.
+   - Dataset : https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset?select=train.csv.
 
 2. **Query Handling**:
    - When the user makes a query, the system first converts the query into embeddings and retrieves relevant medical context using the **FAISS** index.

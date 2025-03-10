@@ -1,4 +1,4 @@
-# Medical Assistant RAG API
+# Medical Assistant RAG.
 
 ## Description
 

@@ -1,0 +1,52 @@
+.input-box {
+  display: flex;
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.text-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  font-size: 1rem;
+  resize: none;
+  outline: none;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+.text-input:disabled {
+  background-color: #f9f9f9;
+  cursor: not-allowed;
+}
+
+.send-button {
+  background-color: var(--primary-color);
+  border: none;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: white;
+}
+
+.send-button:hover {
+  background-color: #4B4ECC;
+}
+
+.send-button:disabled {
+  background-color: #A0A0A0;
+  cursor: not-allowed;
+}
+
+.send-button svg {
+  width: 18px;
+  height: 18px;
+}
